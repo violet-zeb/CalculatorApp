@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorApp.MainPage">
+
+    <Grid Padding="10" ColumnSpacing="5" RowSpacing="5" BackgroundColor="AntiqueWhite">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="4"
+               Text="42"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="End"
+               FontSize="100"
+               TextColor="Coral"/>
+        <Button Grid.Row="1" Grid.Column="0" Text="C" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="1" Grid.Column="3" Text="Back" FontSize="20" TextColor="AntiqueWhite"  BackgroundColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="2" Grid.Column="0" Text="7" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="8" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="9" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="2" Grid.Column="3" Text="/" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="3" Grid.Column="0" Text="4" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="3" Grid.Column="1" Text="5" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="3" Grid.Column="2" Text="6" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="3" Grid.Column="3" Text="*" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20" />
+        <Button Grid.Row="4" Grid.Column="0" Text="1" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="4" Grid.Column="1" Text="2" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="4" Grid.Column="2" Text="3" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="4" Grid.Column="3" Text="-" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="5" Grid.Column="0" Text="0" FontSize="30" TextColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="5" Grid.Column="1" Text="." FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20"/>
+        <Button Grid.Row="5" Grid.Column="2" Text="=" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20" />
+        <Button Grid.Row="5" Grid.Column="3" Text="+" FontSize="40" TextColor="AntiqueWhite" BackgroundColor="Coral" CornerRadius="20"/>
+
+    </Grid>
+
+</ContentPage>
